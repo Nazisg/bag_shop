@@ -1,0 +1,412 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./bootstrap.min.css">
+    <link rel="stylesheet" href="./style.css">
+    <title>Orders</title>
+</head>
+<body>
+<header>
+    <div class="head">
+        <div>
+            <img src="./image/phone-call.svg" alt="phone-call">
+            <a href="#">+748 383 23 14</a>
+        </div>
+        <div class="faq">
+            <a href="#">Terms of Use</a>
+            <p>|</p>
+            <a href="#">FAQ</a>
+            <p>|</p>
+            <a href="#">Customer service</a>
+        </div>
+    </div>
+    <div class="hdr">
+     <a href="./index.html"><h2>Snobella</h2></a>
+        <input class="search" type="text" placeholder="Search all product">
+        <div class="icons">
+            <img src="./image/avatar.svg" alt="avatar">
+            <p><a data-bs-toggle="modal" href="#exampleModal">Sign up</a></p>
+            <img src="./image/heart.svg" alt="heart">
+            <p><a href="./index7.html">Wishlist</a></p>
+            <img src="./image/bag.svg" alt="bag">
+            <p><a href="./index4.html">Basket</a></p>
+        </div>
+        <img id="menu" src="./image/menu.svg">
+        <div id="menubox">
+          <button id="btnx">X</button>
+          <ul>
+            <li><img src="./image/avatar.svg" alt="avatar"><a data-bs-toggle="modal" href="#exampleModal">Sign up</a></li> 
+            <li> <img src="./image/heart.svg" alt="heart"><a href="./index7.html">Wishlist</a></li>
+            <li> <img src="./image/bag.svg" alt="bag"><a href="./index4.html">Basket</a></li>
+          </ul>
+          <ul class="menu1">
+            <li><a href="./index.html">Evening bags</a></li>
+            <li><a href="./index2.html">Shoulder bag </a></li>
+            <li><a href="./index4.html">Shopping bag</a></li>
+            <li><a href="./index5.html">Orders</a></li>
+            <li><a href="./index6.html">Addresses</a></li>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   
+            <li><a href="./index7.html">Favorites</a></li>
+        </ul>
+        </div>
+    </div>
+
+  <!-- modal -->
+  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title ttop" id="exampleModalLabel">Create Account </h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <p class="exc">Excepteur sint occaecat cupidatat mollit </p>
+        <div class="modal-body">
+          <label>Email</label><br>
+           <input class="inputm" type="text" >
+           <div class="form-check">
+            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+            <label class="form-check-label" for="flexCheckDefault">
+                I have read and agree to the terms of use.
+            </label>
+          </div>
+          <button class="btn7 ppdd"  data-bs-toggle="modal" data-bs-target="#exampleModal7">Continue</button>
+          <p class="sign">Already have an account? <a data-bs-toggle="modal" href="#exampleModal2">Sign in</a></p>
+        </div>
+        <div class="modal-footer">
+        </div>
+      </div>
+    </div>
+  </div>
+<!-- modal2 -->
+  <div class="modal fade" id="exampleModal2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content tt">
+        <div class="modal-header">
+          <h5 class="modal-title ttop leftt" id="exampleModalLabel">Login</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <p class="exc">Nor again is there anyone who to enjoy a pleasure that <br>
+            or pursues or desires to obtain </p>
+        <div class="modal-body">
+          <label>Email</label><br>
+           <input class="inputm" type="text" ><br>
+           <label class="code">Code <a class="forgot" data-bs-toggle="modal" href="#exampleModal3">Forgot your password?</a> </label><br>
+           <input class="inputm" type="password" >
+           <div class="form-check">
+            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+            <label class="form-check-label" for="flexCheckDefault">
+                I have read and agree to the terms of use.
+            </label>
+          </div>
+          <button class="btn7 ppdd"  data-bs-toggle="modal" data-bs-target="#exampleModal" >Login</button>
+          <p class="sign">Don't have an account yet? <a data-bs-toggle="modal" href="#exampleModal2">Create now</a></p>
+        </div>
+        <div class="modal-footer">
+        </div>
+      </div>
+    </div>
+  </div>
+<!-- modal3 -->
+<div class="modal fade" id="exampleModal3" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+<div class="modal-dialog">
+  <div class="modal-content">
+    <div class="modal-header">
+      <h5 class="modal-title ttop" id="exampleModalLabel">Forgot your password? </h5>
+      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+    </div>
+    <p class="exc">Nor again is there anyone who to enjoy a pleasure that <br>
+        or pursues or desires to obtain </p>
+    <div class="modal-body">
+      <label>Enter your email</label><br>
+       <input class="inputm" type="text" >
+      <button class="btn7 ppdd"  data-bs-toggle="modal" data-bs-target="#exampleModal4">Continue</button>
+    </div>
+    <div class="modal-footer">
+    </div>
+  </div>
+</div>
+</div>
+<!-- modal4 -->
+<div class="modal fade" id="exampleModal4" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+<div class="modal-dialog">
+  <div class="modal-content">
+    <div class="modal-header">
+      <h5 class="modal-title ttop" id="exampleModalLabel">Forgot your password? </h5>
+      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+    </div>
+    <p class="exc">Nor again is there anyone who to enjoy a pleasure that <br>
+        or pursues or desires to obtain </p>
+    <div class="modal-body">
+      <label>Code</label><br>
+       <input class="inputm" type="password" placeholder=" * * * * * * " >
+      <button class="btn7 ppdd"  data-bs-toggle="modal" data-bs-target="#exampleModal5">Approve</button>
+      <p class="sign">Code not sent? Send again (01:00 then)</p>
+    </div>
+    <div class="modal-footer">
+    </div>
+  </div>
+</div>
+</div>
+<!-- modal5 -->
+<div class="modal fade" id="exampleModal5" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+<div class="modal-dialog">
+  <div class="modal-content">
+    <div class="modal-header">
+      <h5 class="modal-title ttop" id="exampleModalLabel">Reset password </h5>
+      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+    </div>
+    <p class="exc">Nor again is there anyone who to enjoy a pleasure that <br>
+        or pursues or desires to obtain </p>
+    <div class="modal-body">
+      <label>New password</label><br>
+       <input class="inputm" type="password" >
+      <button class="btn7 ppdd"  data-bs-toggle="modal" data-bs-target="#exampleModal6">Approve</button>
+    </div>
+    <div class="modal-footer">
+    </div>
+  </div>
+</div>
+</div>
+<!-- modal6 -->
+<div class="modal fade" id="exampleModal6" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+<div class="modal-dialog">
+  <div class="modal-content">
+    <div class="modal-header">
+      <h5 class="modal-title ttop" id="exampleModalLabel"> </h5>
+      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+    </div>
+    <!-- <p class="exc">Nor again is there anyone who to enjoy a pleasure that <br>
+        or pursues or desires to obtain </p> -->
+    <div class="modal-body ctr">
+         <div class="vektor"><img src="./image/Vector.svg"></div>
+         <h5>Password updated successfully</h5>
+         <p>Please reload your account enter</p>
+      <button class="btn7 ppdd"  data-bs-toggle="modal" data-bs-target="#exampleModalX">Login</button>
+    </div>
+    <div class="modal-footer">
+    </div>
+  </div>
+</div>
+</div>
+<!-- modal7 -->
+<div class="modal fade" id="exampleModal7" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+<div class="modal-dialog">
+  <div class="modal-content">
+    <div class="modal-header">
+      <h5 class="modal-title ttop" id="exampleModalLabel">Create Account </h5>
+      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+    </div>
+    <p class="exc">Nor again is there anyone who to enjoy a pleasure that <br>
+        or pursues or desires to obtain </p>
+    <div class="modal-body">
+      <label>Code</label><br>
+       <input class="inputm" type="password" placeholder=" * * * * * * " >
+      <button class="btn7 ppdd"  data-bs-toggle="modal" data-bs-target="#exampleModal8">Approve</button>
+      <p class="sign">Code not sent? Send again (01:00 then)</p>
+    </div>
+    <div class="modal-footer">
+    </div>
+  </div>
+</div>
+</div>
+<!-- modal8 -->
+<div class="modal fade" id="exampleModal8" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+<div class="modal-dialog">
+  <div class="modal-content tt">
+    <div class="modal-header">
+      <h5 class="modal-title ttop" id="exampleModalLabel">Create Account</h5>
+      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+    </div>
+    <p class="exc">Nor again is there anyone who to enjoy a pleasure that <br>
+        or pursues or desires to obtain </p>
+    <div class="modal-body">
+      <label>First name and Last name</label><br>
+       <input class="inputm" type="text" ><br>
+       <label class="code">Password</label><br>
+       <input class="inputm" type="password" >
+       <div class="form-check">
+        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+        <label class="form-check-label" for="flexCheckDefault">
+            I have read and agree to the terms of use.
+        </label>
+      </div>
+      <button class="btn7 ppdd"  data-bs-toggle="modal" data-bs-target="#exampleModal2" >Complete</button>
+    </div>
+    <div class="modal-footer">
+    </div>
+  </div>
+</div>
+</div>
+
+    <ul class="menu">
+        <li><a href="./index.html">Evening bags</a></li>
+        <li><a href="./index2.html">Shoulder bag </a></li>
+        <li><a href="./index4.html">Shopping bag</a></li>
+        <li><a href="./index5.html">Orders</a></li>
+        <li><a href="./index6.html">Addresses</a></li>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   
+        <li><a href="./index7.html">Favorites</a></li>
+    </ul>
+</header>
+<div class="main left">
+    <span>Home</span>
+    <img src="./image/left.svg" alt="left">
+    <span>Addresses</span>
+    <h1>Addresses </h1>
+   </div>
+
+<div class="dffle">
+    <div class="pbox">
+        <div class="dr">
+            <img width="50px" height="50px" src="./image/pp.png">
+        <div class="txx">
+            <h5>John Smith</h5>
+            <p>Client code: BYL13000</p></div>
+        </div>
+        <div class="tbl">
+            <hr>
+            <img src="./image/box.svg">
+            <span><a href="./index5.html">My Orders</a></span>
+            <hr>
+           <img src="./image/heartt.svg">
+           <span><a href="./index7.html">Favorites</a></span>
+           <hr>
+           <img src="./image/messenger.svg">
+           <span>My comments</span>
+           <div class="focus">
+            <div class="line2"></div>
+           <hr>
+           <img src="./image/location.svg">
+           <span><a href="./index6.html">Addresses</a></span>
+           <hr>
+           </div>
+           <img src="./image/avatar3.svg">
+           <span>Adjustments</span>
+        </div>
+        </div>
+        
+        <div class="addr">
+         <div class="dash">
+             <img src="./image/address.svg">
+         </div>
+         <div class="soli">
+           <h5>Home </h5>
+           <img class="done" src="./image/done.svg">
+           <hr>
+          <div class="jake">
+            <h6>Jake L Stephenson</h6>
+            <p>United Kingdom/Rugeley</p>
+            <p>Biirches Valley Forest Centre,<br>
+             Lady Hill, WS15 2UQ</p>
+             <p>847*****54</p>
+             <img class="edit" src="./image/edit.svg">
+             <img src="./image/remove.svg">
+          </div>
+         </div>
+         <div class="soli">
+            <h5>Work </h5>
+            <img class="done" src="./image/done.svg">
+            <hr>
+           <div class="jake">
+             <h6>Jake L Stephenson</h6>
+             <p>United Kingdom/Rugeley</p>
+             <p>Biirches Valley Forest Centre,<br>
+              Lady Hill, WS15 2UQ</p>
+              <p>847*****54</p>
+              <img class="edit" src="./image/edit.svg">
+              <img src="./image/remove.svg">
+           </div>
+          </div>
+          <div class="soli">
+            <h5>Work </h5>
+            <img class="done" src="./image/done.svg">
+            <hr>
+           <div class="jake">
+             <h6>Jake L Stephenson</h6>
+             <p>United Kingdom/Rugeley</p>
+             <p>Biirches Valley Forest Centre,<br>
+              Lady Hill, WS15 2UQ</p>
+              <p>847*****54</p>
+              <img class="edit" src="./image/edit.svg">
+              <img src="./image/remove.svg">
+           </div>
+          </div>
+          <div class="soli">
+            <h5>Home </h5>
+            <img class="done" src="./image/done.svg">
+            <hr>
+           <div class="jake">
+             <h6>Jake L Stephenson</h6>
+             <p>United Kingdom/Rugeley</p>
+             <p>Biirches Valley Forest Centre,<br>
+              Lady Hill, WS15 2UQ</p>
+              <p>847*****54</p>
+              <img class="edit" src="./image/edit.svg">
+              <img src="./image/remove.svg">
+           </div>
+          </div>
+               
+        </div>
+</div>
+<footer>
+    <div class="foot">
+        <h2>Snobella</h2>
+        <input class="search wh" type="text" placeholder="Search all product">
+    </div><hr>
+  <div class="df">
+    <div  class="txxt">
+        <p class="txt2">The wise man therefore always holds
+            selectionThe wise man therefore always 
+            rejects pleasures to secure other greater</p>
+            <div class="top">
+             <img src="./image/email.svg" alt="email">
+            <span>Snobella@gmail.com</span>
+            </div>
+           <div class="top">
+            <img src="./image/call.svg" alt="call">
+            <span>+748 383 23 14</span>
+           </div class="top">
+            <button class="btn4"><img src="./image/send.svg" alt="send"> Send message</button>
+       </div>
+       <div class="sh">
+        <div class="shop">
+          <p> <strong>Shop</strong></p>
+          <p><a href="./index.html">Evening bags</a></p>
+          <p><a href="./index2.html">Shoulder bag</a></p>
+          <p><a href="./index4.html">Shopping bag</a></p>
+          <p><a href="./index5.html">Orders</a></p>
+          <p><a href="./index6.html">Addresses</a></p>
+          <p><a href="./index7.html">Favorites</a></p>
+      </div>
+      <div class="comp">
+          <p><strong>Company</strong></p>
+          <p><a href="#">About us</a></p>
+          <p><a href="#">Contact</a></p>
+          <p><a href="#">Terms of Use</a></p>
+          <p><a href="#">Customer service</a></p>
+      </div>
+      <div class="help">
+          <p><strong>Help</strong></p>
+             <p><a href="#">FAQ</a></p>
+             <p><a href="#">Delivery</a></p>
+             <p><a href="#">Cancellation of the order</a></p>
+             <p><a href="#">Don't go back</a></p>
+          </div>
+      </div>
+  </div>
+  </div>
+  </footer>
+  <div class="footer">
+      <p>© 2020. All rights reserved.</p>
+      <div>
+          <img src="./image/instagram.svg" alt="instagram">
+          <img src="./image/facebook.svg" alt="facebook">
+          <img src="./image/whatsapp.svg" alt="whatsapp">
+      </div>
+  </div>
+
+   <script src="./bootstrap.min.js"></script>
+   <script src="./app.js"></script>
+</body>
+</html>
